@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/drawable/ic_open_book_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/layout/activity_main.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/layout/fragment_chapter_detail.xml" value="0.33" />
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/layout/fragment_chapter_list.xml" value="0.22" />
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/layout/list_item_chapter.xml" value="0.25" />
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/menu/fragment_chapter_detail.xml" value="0.346875" />
+        <entry key="..\:/Users/Tami/AndroidStudioProjects/Chapter/app/src/main/res/menu/fragment_chapter_list.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

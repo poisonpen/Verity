@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:navGraph = "@navigation/nav_graph"
+    app:defaultNavHost = "true"
+    android:name = "androidx.navigation.fragment.NavHostFragment"
+    app:startDestination="@id/chapterListFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <fragment
+        android:id="@+id/chapterListFragment"
+        android:name="com.example.chapter.ChapterListFragment"
+        android:label="ChapterListFragment"
+        tools:layout="@layout/fragment_chapter_list">
+
+        <action
+            android:id="@+id/show_chapter_detail"
+            app:destination="@id/chapterDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chapterDetailFragment"
+        android:name="com.example.chapter.ChapterDetailFragment"
+        android:label="ChapterDetailFragment"
+        tools:layout="@layout/fragment_chapter_detail">
+        <argument
+            android:name="chapterId"
+            app:argType="java.util.UUID" />
+    </fragment>
+
+</navigation>
