@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199569391480",
+    "project_id": "karisong",
+    "storage_bucket": "karisong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199569391480:android:a3c4d90c8f14c23442528d",
+        "android_client_info": {
+          "package_name": "com.example.karisong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199569391480-o8ivti86pirv0h4v5jldc17pas0lor0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFOFrLVbaEMYP2nfI5wmQAFSV0NnAZoz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199569391480-o8ivti86pirv0h4v5jldc17pas0lor0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

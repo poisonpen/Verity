@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Karisong" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FFB74D</item>
+        <item name="colorPrimaryVariant">#FF8A65</item>
+        <item name="statusBarForeground">#000000</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorAccent">#4DD0E1</item>
+        <item name="colorPrimaryDark">@color/black</item>
+
+        <item name="colorSecondary">#4DD0E1</item>
+        <item name="colorSecondaryVariant">#FFB74D</item>
+        <item name="colorOnSecondary">#FF8A65</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/statusBarForeground</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

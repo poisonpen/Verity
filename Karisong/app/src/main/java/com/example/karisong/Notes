@@ -1,0 +1,10 @@
+// NOTES TODO
+
+- 1. when account is destroyed , and the app is quit and refreshed, the user can still log in.
+    however, this should be fixed when a " delete account button is made " , as then the user
+    will have to go through the login flow immediately
+- 2. make a bio space
+- 3. somehow find a way for the explore to return recent images, format that design
+- 4. automatically deleting all post data when a post count is lowered or not found might be too
+    dangerous for actual practice
+- 5. validate the size of some strings (username, displayname)

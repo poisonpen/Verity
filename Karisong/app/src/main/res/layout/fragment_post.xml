@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frags.specialfrags.PostFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFB74D"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="60dp"
+        android:padding="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="300dp"
+       app:cardCornerRadius="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/postImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sunset" />
+
+
+        </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_margin = "20dp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/settings"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_baseline_favorite_24"
+            android:backgroundTint="#FFFFFF"
+            android:clickable="true"
+            android:hapticFeedbackEnabled="false"
+            app:iconTint="#FFFFFF" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_bookmark_24"
+            android:clickable="true"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_marginLeft="10dp"
+            android:hapticFeedbackEnabled="false"
+            app:iconTint="#FFFFFF" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_delete_24"
+            android:clickable="true"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:hapticFeedbackEnabled="false"
+            app:iconTint="#FFFFFF" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="we used to hide under the covers, serenade
+                            each other, with careless melodies..." />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

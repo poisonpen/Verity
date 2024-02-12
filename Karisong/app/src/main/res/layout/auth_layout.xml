@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="200sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cherry_swash_bold"
+        android:text="Sign In"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="30sp">
+
+            <Button
+                android:id="@+id/email_btn"
+                android:layout_width="300sp"
+                android:layout_height="65sp"
+                android:layout_gravity="center"
+                android:text="@string/fui_sign_in_with_email"
+                app:rippleColor="@color/purple_700"/>
+
+                <Button
+                    android:id="@+id/google_btn"
+                    android:layout_margin="20sp"
+                    android:layout_width="300sp"
+                    android:layout_height="65sp"
+                    android:text="@string/fui_sign_in_with_google"
+                    android:layout_gravity="center"
+                    app:rippleColor="#8C1037"
+                    android:backgroundTint="#DD1F4B"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/tos_privacy_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50sp"
+            android:lineSpacingExtra="6sp"
+            android:text="TOS &amp; PRIVACY POLICY"
+            android:gravity="center"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
