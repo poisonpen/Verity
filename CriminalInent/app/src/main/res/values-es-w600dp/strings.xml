@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_title_prompt_string">
+        Introduzca un título significativo y memorable para el crimen.
+    </string>
+</resources>
